@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* Aqui ele fez um root com as fontes que ele ia usar 
+
+:root{
+    --fonte1
+    --fonte2
+    --fonte3
+} */
+
+
+/* Ele configurou globalmente margem e padding 0 
+*{
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* html,*/  
+body{
+    /* min-height: 100vh; */ 
+    background-color: white;
+    /* Eu escolhi colocar background no body mas ele coloco em cada section */
+    padding: 0;
+    margin: 0;
+}
+
+/* Aqui ele fez as configurações gerais do body  */
+
+/* Depois, ele começou a fazer as configurações do header, sendo 
+
+header
+header > h1
+header > p 
+a
+a: hover
+
+*/
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Aqui eu já estou considerando todos os a, mas eu posso escrever:
+
+header a, footer a {} e
+header a:hover, footer a:hover */
+
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    margin: auto;
+    font-family:'Passion One';
+    font-size: 70px;
+    /* Aqui ele colocou um padding top e usou uma propriedade chamada font-variant: para fazer o efeito das maísculas e minúsculas.  */
+}
+
+span.maiuscula{
+    font-size: 100px;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 55px;
+    text-align: center;
+}
+
+
+main{
+    font-family: 'Sriracha';
+    font-size: 34px;
+    padding: 0px;
+}
+
+#primeirafoto, #segundafoto{
+    height:600px;
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    margin: 100px 0px 60px 0px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.377) inset;
+}
+
+#primeirafoto {
+    background-image: url(imagens/background001.jpg);
+}
+
+#segundafoto { 
+    background-image: url(imagens/background002.jpg);
+}
+
+.transparente {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.normal{
+    padding: 40px 0px 20px 10px;
+    margin: 10px 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 1px;
+}
+
+
+/* Ele configurou section geral, section normal e section imagem. Para todas as sections ele usou um padding top e bottom de 10vh. Isso faz com que a section ganhe um espaço em cima e embaixo de 10% da tela. 
+
+Ele também configurou o espaçamento nas configurações gerais das sections usando line-height: 2em e afastu elas da borda com padding de 30px*/
+
+/* Para fazer o fundo transparente, ele fez 
+
+section.imagem {
+    background-color: rgb(7, 7, 7);
+    width: 400px; */
