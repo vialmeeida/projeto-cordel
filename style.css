@@ -100,11 +100,12 @@ main{
 }
 
 #primeirafoto {
-    background-image: url(Imagens/background001.jpg);
+    background-image: url(./Imagens/background001.jpg);
+
 }
 
 #segundafoto { 
-    background-image: url(Imagens/background002.jpg);
+    background-image: url(./Imagens/background002.jpg);
 }
 
 .transparente {
